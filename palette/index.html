@@ -1,0 +1,13 @@
+---
+---
+<html>
+  <body>
+    <ul>
+      {% for color in site.data.palette %}
+        <li>
+          <h2>{{ color.name }} ({{ color.hex }}) ({{ color.hsl[0] }})</h2>
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
