@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1,viewport-fit=cover,width=device-width">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {%- if page.custom_css -%}
+    <link rel="stylesheet" href="{{ page.custom_css | prepend: '/assets/' | append: '.css' | relative_url }}">
+  {%- endif -%}
+  <title>
+    {%- assign delimiter = ' · ' %}
+    {%- if page.title -%}
+      {{- page.title -}}{{- delimiter -}}
+    {%- endif -%}
+    {{- site.title -}}
+  </title>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

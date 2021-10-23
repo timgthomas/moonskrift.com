@@ -1,0 +1,24 @@
+---
+---
+@import '_base';
+
+body {
+  background: #200b32;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+h1 {
+  background: center / contain no-repeat url('/logotype.svg');
+  height: 7rem;
+  margin: 0 auto;
+  width: 30rem;
+}
+
+a {
+  background: center / contain no-repeat url('/twitter.svg');
+  display: block;
+  height: 4.4rem;
+  margin: #{'max(3rem, calc(25vh - 10rem))'} auto 0;
+  width: 4.4rem;
+}
