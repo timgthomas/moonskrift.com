@@ -4,4 +4,6 @@ layout: default
 ---
 
 <h1>Moonskrift</h1>
-<a href="https://twitter.com/moonskrift">Follow me on Twitter</a>
+{%- if site.social.twitter -%}
+  <a href="https://twitter.com/{{ site.social.twitter | uri_escape }}">Follow me on Twitter</a>
+{%- endif -%}
