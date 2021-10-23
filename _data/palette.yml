@@ -1,0 +1,15 @@
+- name: Robin's Egg
+  hsl: [ 178, 100, 38 ]
+  hex: '#00c2bc'
+- name: Violet
+  hsl: [ 278, 100, 100 ]
+  hex: '#a000ff'
+- name: Derby
+  hsl: [ 31, 14, 100 ]
+  hex: '#feeddb'
+- name: Ronchi
+  hsl: [ 41, 54, 89 ]
+  hex: '#e4bd68'
+- name: Eternity
+  hsl: [ 72, 11, 18 ]
+  hex: '#2d2e29'
