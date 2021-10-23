@@ -1,10 +1,9 @@
-version: '3.9'
+version: '3'
 
 services:
   web:
-    image: jekyll/jekyll:latest
-    command: jekyll serve
-    volumes:
-      - ./:/srv/jekyll
+    image: starefossen/github-pages:latest
     ports:
       - 4000:4000
+    volumes:
+      - ./:/usr/src/app

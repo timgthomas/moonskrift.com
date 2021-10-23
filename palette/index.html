@@ -2,26 +2,23 @@
 title: Palette
 layout: default
 ---
-<html>
-  <body>
-    <ul>
-      {% for color in site.data.palette %}
-        <li>
-          <h2>{{ color.name }}</h2>
-          <dl>
-            <dt>H</dt>
-            <dd>{{ color.hsl[0] }}°</dd>
-            <dt>S</dt>
-            <dd>{{ color.hsl[1] }}%</dd>
-            <dt>L</dt>
-            <dd>{{ color.hsl[2] }}%</dd>
-          </dl>
-          <dl>
-            <dt>Hex</dt>
-            <dd>{{ color.hex }}</dd>
-          </dl>
-        </li>
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+
+<ul>
+  {% for color in site.data.palette %}
+    <li>
+      <h2>{{ color.name }}</h2>
+      <dl>
+        <dt>H</dt>
+        <dd>{{ color.hsl[0] }}°</dd>
+        <dt>S</dt>
+        <dd>{{ color.hsl[1] }}%</dd>
+        <dt>L</dt>
+        <dd>{{ color.hsl[2] }}%</dd>
+      </dl>
+      <dl>
+        <dt>Hex</dt>
+        <dd>{{ color.hex }}</dd>
+      </dl>
+    </li>
+  {% endfor %}
+</ul>
