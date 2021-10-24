@@ -1,9 +1,20 @@
 ---
 ---
 
-body {
-  background: bottom center / 100rem 60rem no-repeat url('/assets/fursona.jpg') #200b32;
-  font: 0 / 0 a;
+:root {
   overflow: hidden;
-  padding: 3rem 0 0;
+}
+
+body {
+  background: bottom center / 100rem 60rem no-repeat url('/assets/fursona.jpg') var(--color-background);
+  overflow: hidden;
+}
+
+a {
+  background: center / contain no-repeat url('/assets/twitter.svg');
+  display: block;
+  font: 0 / 0 a;
+  height: 4.4rem;
+  margin: #{'max(3rem, calc(25vh - 10rem))'} auto 0;
+  width: 4.4rem;
 }

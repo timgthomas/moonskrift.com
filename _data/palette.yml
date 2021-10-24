@@ -2,14 +2,14 @@
   hsl: [ 178, 100, 38 ]
   hex: '#00c2bc'
 - name: Violet
-  hsl: [ 278, 100, 100 ]
+  hsl: [ 278, 100, 50 ]
   hex: '#a000ff'
 - name: Derby
-  hsl: [ 31, 14, 100 ]
+  hsl: [ 31, 95, 93 ]
   hex: '#feeddb'
 - name: Ronchi
-  hsl: [ 41, 54, 89 ]
+  hsl: [ 41, 70, 65 ]
   hex: '#e4bd68'
 - name: Eternity
-  hsl: [ 72, 11, 18 ]
+  hsl: [ 72, 6, 17 ]
   hex: '#2d2e29'

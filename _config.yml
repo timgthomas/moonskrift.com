@@ -1,4 +1,8 @@
 title: Moonskrift
 
+menu_pages:
+  - index.html
+  - palette/index.html
+
 social:
   twitter: moonskrift

@@ -1,9 +1,9 @@
 ---
 ---
-@import '_base';
+@import 'init';
 
 body {
-  background: #200b32;
+  background: var(--color-background);
   min-height: 100vh;
   min-height: -webkit-fill-available;
 }
@@ -13,12 +13,4 @@ h1 {
   height: 7rem;
   margin: 0 auto;
   width: 30rem;
-}
-
-a {
-  background: center / contain no-repeat url('/assets/twitter.svg');
-  display: block;
-  height: 4.4rem;
-  margin: #{'max(3rem, calc(25vh - 10rem))'} auto 0;
-  width: 4.4rem;
 }

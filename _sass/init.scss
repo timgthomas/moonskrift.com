@@ -1,0 +1,68 @@
+@import
+  '_resets',
+  '_palette'
+;
+
+body {
+  color: white;
+  padding: 3rem 0 0;
+}
+
+[role='banner'] {
+  h1 {
+    font: 0 / 0 a;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    color: inherit;
+    display: block;
+    padding: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+main {
+  padding: 0 4.8rem;
+}
+
+// Palette
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 8rem;
+}
+
+li {
+  list-style: none;
+
+  & + li {
+    margin-top: 2.4rem;
+  }
+
+ div {
+   display: flex;
+ }
+}
+
+h2 {
+  align-items: flex-end;
+  border-bottom: 2px solid var(--color-swatch);
+  display: flex;
+  margin-bottom: 1.2rem;
+  text-transform: lowercase;
+
+  &::before {
+    background: var(--color-swatch);
+    content: '';
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+}

@@ -17,6 +17,10 @@
   </title>
 </head>
 <body>
+  <header role="banner">
+    <h1>{{- site.title -}}</h1>
+    {%- include nav.html -%}
+  </header>
   {{ content }}
 </body>
 </html>
